@@ -1,0 +1,20 @@
+{
+  "name": "hello-world",
+  "version": "1.0.0",
+  "description": "Simple hello world",
+  "main": "webpack.config.js",
+  "scripts": {
+    "dev": "webpack-dev-server --inline --hot",
+    "build": "cross-env NODE_ENV=production webpack --progress --hide-modules"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brandongilzean/vue.git"
+  },
+  "author": "Brandon Gilzean",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brandongilzean/vue/issues"
+  },
+  "homepage": "https://github.com/brandongilzean/vue#readme"
+}
